@@ -1,0 +1,40 @@
+var scene = createSprite(200,200);
+scene.setAnimation("water");
+var fish = createSprite(200,200);
+fish.setAnimation("fish");
+fish.scale = 0.25;
+fish.velocityX = 3;
+
+function draw() {
+  background("white");
+  
+ // Remove The "/"'s From The Correct Code Snippet
+
+ // if(fish.x > 430){
+ //   fish.x = -30;
+ // }
+
+ // if(fish.y < 430){
+ //  fish.y = -30
+ // }
+
+ // if(fish.y > 430){
+ //  fish.y = -30
+ // }
+
+ // if(fish.x < -430){
+ //  fish.x = 30
+ // }
+  
+  drawSprites();
+}
+
+function mousePressed() {
+
+ // Remove The "/"'s From The Correct Code Snippet
+
+ // fish.setPhoto("scary_fish");
+ // fish.addAnimation("scary_fish");
+ // fish.setImage("scary_fish");
+ // fish.addImage("scary_fish");
+}
